@@ -7,12 +7,19 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        spotify: {
+          green: {
+            DEFAULT: '#1DB954',
+            dark: '#1ED760',
+          },
+          black: '#191414',
+          white: '#FFFFFF',
+          'light-gray': '#B3B3B3',
+          gray: '#282828',
+        },
       },
     },
   },
   plugins: [],
-}
+};

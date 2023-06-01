@@ -1,0 +1,23 @@
+.sidebar {
+    @apply flex h-full;
+}
+
+.sidebar_inner {
+    @apply hidden md:flex flex-col gap-y-2 bg-black h-full w-[300px] p-2;
+}
+
+.sidebar_item {
+    @apply overflow-y-auto h-full;
+}
+
+.sidebar__item_grid {
+    @apply flex flex-col gap-y-4 px-5 py-4;
+}
+
+.sidebar_item {
+    @apply overflow-y-auto h-full;
+}
+
+.site__main {
+    @apply h-full flex-1 overflow-y-auto py-2;
+}

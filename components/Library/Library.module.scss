@@ -1,0 +1,27 @@
+.library__container {
+    @apply flex flex-col;
+}
+
+.library__grid {
+    @apply flex items-center justify-between px-5 pt-4;
+}
+
+.library__icon_container_icon {
+    @apply text-neutral-400;
+}
+
+.library__icon_container_label {
+    @apply text-neutral-400  text-base font-medium;
+}
+
+.add_button {
+    @apply text-neutral-400 cursor-pointer hover:text-white transition;
+}
+
+.library__icon_container {
+    @apply inline-flex items-center gap-x-2;
+}
+
+.library__lists_of_songs {
+    @apply flex flex-col gap-y-2 mt-4 px-3;
+}
